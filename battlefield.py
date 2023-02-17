@@ -14,12 +14,12 @@ class Battlefield:
     def pick_random_dino(self,):
         selected_dino = random.choice(self.herd.dino_herd)
         self.dinosaur = selected_dino
-        print(selected_dino.name)
+        print(f"{selected_dino.name} is the dinosaur champion!")
         return selected_dino
     def pick_random_robot(self,):
         selected_robot = random.choice(self.fleet.robot_fleet)
         self.robot = selected_robot
-        print(selected_robot.name)
+        print(f"{selected_robot.name} is the robot champion!")
         return selected_robot
         
 
