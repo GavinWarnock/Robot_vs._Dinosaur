@@ -19,3 +19,5 @@ class Robot:
             dinosaur.health -= self.active_weapon[2].attack_power
             print(f"{self.name} has struck {dinosaur.name} with his {self.active_weapon[2].name} for {self.active_weapon[2].attack_power} damage!")
             print(f"{dinosaur.name} has {dinosaur.health} health remaining!")
+        else:
+            print("Please select a valid attack")
