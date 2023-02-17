@@ -1,9 +1,5 @@
-from robot import Robot
-from dinosaur import Dinosaur
-from weapon import Weapon
-active_weapon = Weapon("Blaster Cannon", 60)
-Sauron = Dinosaur("Sauron the Great", 50)
-Megatron = Robot("Megatron")
+from battlefield import Battlefield
 
-Sauron.attack(Megatron)
-Megatron.attack(Sauron)
+battlefield = Battlefield("Battleground of Titans")
+
+battlefield.run_game()
